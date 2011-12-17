@@ -1,0 +1,14 @@
+This is a simple Python implementation of the Genetic Algorithm demonstration at www.ai-junkie.com
+The original code was in C++. I felt the need of coding the thing myself, and decided to do it in 
+Python.
+
+The problem we solve is:
+    "For any given 'target' number, find an expression invlolving any legal combination of 
+    addition(+), subtraction(-), multiplication(*) and division(/) on digits that represents the 
+    given target number.
+
+    e.g., for the target 15, "9 + 3 * 2" is a solution."
+
+    **Important: In Fup's code, the evaluation of the expressions generated was simple, left to right
+    evaluation. I have used normal arithmetic precedence based evaluation(see `expr.py')
+
