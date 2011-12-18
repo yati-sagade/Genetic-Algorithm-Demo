@@ -13,8 +13,14 @@ from copy import copy
 CROSSOVER_RATE              = 0.7
 MUTATION_RATE               = 0.001
 POP_SIZE                    = 100
+
+# Not used at all here, but was there in Fup's C++ code.
 CHROMO_LENGTH               = 300
+
+# Length of each gene - For our purpose, 4 bits are enough.
 GENE_LENGTH                 = 4
+
+# Number of times to try before we give up :P
 MAX_ALLOWABLE_GENERATIONS   = 400
 
 OPERATORS = ['+', '-', '*', '/']
