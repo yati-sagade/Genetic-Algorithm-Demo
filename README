@@ -1,6 +1,5 @@
 This is a simple Python implementation of the Genetic Algorithm demonstration at www.ai-junkie.com
-The original code was in C++. I felt the need of coding the thing myself, and decided to do it in 
-Python.
+The original code was in C++. I felt the need of coding the thing myself, and decided to do it in Python.
 
 The problem we solve is:
     "For any given 'target' number, find an expression invlolving any legal combination of 
